@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/SchniderElecric.UITests/SchniderElecric.UITests.csproj" />
+  </Folder>
+</Solution>

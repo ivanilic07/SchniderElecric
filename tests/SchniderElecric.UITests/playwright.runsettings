@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <MaxCpuCount>1</MaxCpuCount>
+    <ResultsDirectory>./TestResults</ResultsDirectory>
+    <EnvironmentVariables>
+      <DOTNET_ENVIRONMENT>Development</DOTNET_ENVIRONMENT>
+    </EnvironmentVariables>
+  </RunConfiguration>
+
+  <NUnit>
+    <NumberOfTestWorkers>1</NumberOfTestWorkers>
+  </NUnit>
+
+  <Playwright>
+    <BrowserName>chromium</BrowserName>
+    <ExpectTimeout>5000</ExpectTimeout>
+  </Playwright>
+</RunSettings>
