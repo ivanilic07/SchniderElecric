@@ -6,6 +6,10 @@ public static class LoginTestData
 
     public const string InvalidPassword = "wrong-password";
 
+    public const string SqlInjectionPayload = "' OR '1'='1";
+
+    public const string XssProbe = "<script>alert('xss')</script>";
+
     public const string LoggedInUserText = "Logged in as Ivan";
 
     public const string IncorrectPasswordMessage = "Incorrect password";
